@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/slika"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <TextView
+        android:id="@+id/priceUSD"
+        android:layout_below="@id/slika"
+        android:textColor="@color/black"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Price (USD): "/>
+
+    <TextView
+        android:id="@+id/priceBTC"
+        android:layout_below="@+id/priceUSD"
+        android:textColor="@color/black"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Price (BTC):"/>
+
+    <TextView
+        android:id="@+id/supply"
+        android:layout_below="@+id/priceBTC"
+        android:textColor="@color/black"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Avilable supply: "/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorAccent"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
+

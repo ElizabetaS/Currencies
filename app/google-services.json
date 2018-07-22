@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "567674704017",
+    "firebase_url": "https://coins-1f4bc.firebaseio.com",
+    "project_id": "coins-1f4bc",
+    "storage_bucket": "coins-1f4bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567674704017:android:f73a917edb91cfce",
+        "android_client_info": {
+          "package_name": "com.example.elisp.valuti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567674704017-34lv404ipqofsn9j3lr0fglsdfj3sj2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiqHixGydbfQYJFGQKT6F0kOyoJlFQUz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
